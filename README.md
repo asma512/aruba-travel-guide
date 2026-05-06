@@ -13,7 +13,7 @@ aruba-travel-guide/
 ├── index.html
 ├── activities.html
 └── contact.html
-
+```
 📘 Design Rationale
 1. HTML Structure & Semantics
 The site is built with a multi-page architecture to improve SEO and content organization. I utilized HTML5 semantic landmarks to create a predictable document hierarchy:
