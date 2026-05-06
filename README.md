@@ -2,18 +2,17 @@ Aruba Travel Guide: "One Happy Island"
 A responsive, multi-page static website acting as a comprehensive travel guide for Aruba. This project demonstrates modern web development practices including semantic HTML5, accessible form design, and a mobile-first responsive layout using CSS Flexbox.
 
 📁 Repository Structure
-Plaintext
+```text
 aruba-travel-guide/
 ├── css/
-│   └── style.css      # Consolidated stylesheet for all pages
-├── images
-│   └── arikok_national_park.jpg
+│   └── style.css
+├── images/
+│   ├── arikok_national_park.jpg
 │   ├── eagle_beach.jpg
-│   ├── island.jpeg
-├── index.html         # Landing page (Explore)
-├── activities.html    # Destination activities page (Things to Do)
-├── contact.html       # Inquiry and planning page (Plan Your Trip)
-└── README.md          # Project documentation and Design Rationale
+│   └── island.jpeg
+├── index.html
+├── activities.html
+└── contact.html
 
 📘 Design Rationale
 1. HTML Structure & Semantics
