@@ -215,3 +215,44 @@ input:focus, textarea:focus {
     padding: 1.5rem 0;
     margin-top: auto;
 }
+
+/* =========================================
+   MEDIA QUERIES (Tablet & Desktop)
+   ========================================= */
+@media (min-width: 768px) {
+    /* Header layout changes to horizontal row */
+    .nav-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Cards become a side-by-side grid */
+    .content {
+        flex-direction: row;
+    }
+
+    .info-card {
+        flex: 1; /* Distributes space equally */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-card img {
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    .submit-btn {
+        width: auto; /* Reset full width on desktop */
+    }
+
+    .content {
+        flex-wrap: wrap; /* Allows cards to drop to a new line if there are many */
+        justify-content: center;
+    }
+
+    .info-card {
+        flex: 1 1 300px; /* Allows cards to be at least 300px wide */
+        max-width: 350px; /* Prevents cards from getting awkwardly wide on massive screens */
+    }
+}
