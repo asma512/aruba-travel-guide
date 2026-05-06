@@ -14,6 +14,7 @@ aruba-travel-guide/
 ├── activities.html    # Destination activities page (Things to Do)
 ├── contact.html       # Inquiry and planning page (Plan Your Trip)
 └── README.md          # Project documentation and Design Rationale
+
 📘 Design Rationale
 1. HTML Structure & Semantics
 The site is built with a multi-page architecture to improve SEO and content organization. I utilized HTML5 semantic landmarks to create a predictable document hierarchy:
